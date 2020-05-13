@@ -1,0 +1,16 @@
+body {
+  background-color: #a4c2bd;
+}
+.heading {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  margin: 25px;
+}
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin: 50px auto;
+  text-align: center;
+}
