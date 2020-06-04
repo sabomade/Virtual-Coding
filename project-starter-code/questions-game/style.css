@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+h3 {
+  margin: 15px;
+}
+.question {
+  margin: 30px;
+}
+.score {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}

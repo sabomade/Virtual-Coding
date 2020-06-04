@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Travel To _____</title>
+    <title>Questions Game</title>
     <meta name="description" content="Use the console to debug your code." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS -->
@@ -32,39 +32,22 @@
     <![endif]-->
 
     <!-- YOUR HTML CODE GOES HERE -->
-    <!-- Make this template really pop!  Add background colors/images, play with font, flexbox for styling, and more -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-3">Travel To ____________</h1>
-        <p class="lead">Add links here or a destination tag line</p>
-      </div>
-    </div>
-
     <div class="container">
-      <!-- section 1: Why go here -->
-      <div class="history">
-        Why should someone travel here? This section should give a bit of
-        history/background about the destination.
+      <div>
+        <button class="btn btn-success" onclick="myFunction()">
+          Click Me to Start
+        </button>
       </div>
+      <h3>Questions will appear below, press T or F to answer.</h3>
 
-      <!--  section 2: what to see  -->
-      <div class="tour">
-        this section should have pictures and links to several attractions
-        you're reccommending a visitor see. Max 6 attractions. add pictures and
-        links if you can.
-      </div>
-
-      <!--  section 3: where to eat  -->
-      <div class="food">
-        this section to reccommend up to 6 local dishes/foods you think a
-        visitor should try. add pictures and links if you can.
+      <!--  p tags where we'll write to  -->
+      <p id="question" class="question"></p>
+      <p id="result" class="question"></p>
+      <div id="score" class="score">
+        <p>Win: <span id="win"></span></p>
+        <p>Lose: <span id="lose"></span></p>
       </div>
     </div>
-
-    <!-- footer -->
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-      this is your footer
-    </nav>
 
     <!-- Bootstrap JS -->
     <script
@@ -82,5 +65,8 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Link to YOUR JS -->
+    <script src="app.js" async defer></script>
   </body>
 </html>
